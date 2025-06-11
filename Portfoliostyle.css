@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 55px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 60px 80px rgba(0, 0, 0, 0.1);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    display: flex;
+    align-items: center;
+}
+.photo img{
+    width: 55px;
+    height: 55px;
+    border-radius: 60%;
+    margin-right: 15px;
+}
+.photo p{
+    font-family: 'AudioWide', sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.photo p:hover{
+    color: royalblue;
+}
+.links{
+    padding-top: 16px;
+}
+.links ul{
+    display: flex;
+}
+.links ul li{
+    list-style-type: none;
+    margin: auto 20px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    font-size: 14px;
+    font-family: 'AudioWide', sans-serif;
+    font-weight: 600;
+}
+.links ul li a:hover{
+    color: royalblue;
+}
+.Home{
+    display: flex;
+    padding-top: 140px;
+    position: relative;
+}
+.background-container{
+    position: relative;
+}
+.background-image{
+    position: absolute;
+    width: 1351px;
+    height: 530px;
+    opacity: 0.5;
+}
+.Socials{
+    margin-left: 0px;
+}
+.Socials ul li{
+    background-color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 3px;
+}
+.Socials ul li{
+    list-style-type: none;
+}
+.Socials ul li a{
+    color: black;
+}
+.Home button{
+    background-color: white;
+    border-radius: 5px;
+    padding: 12px 12px;
+    border-style: none;
+}
+.Home button:hover{
+    background-color: lightgray;
+}
+.intro{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.intro h1{
+    font-family: 'AudioWide', sans-serif;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.intro h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    padding-bottom: 1px;
+}
+.projects{
+    padding-top: 50px;
+}
+.projects button{
+    background-color: royalblue;
+    border-radius: 5px;
+    padding: 20px 90px;
+    border-style: none;
+}
+.projects button:hover{
+    background-color: royalblue;
+}
+.projects button a{
+    color: white;
+    text-decoration: none;
+    font-family: 'AudioWide', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.About{
+    padding-top: 125px;
+    background-color: rgb(247, 247, 247);
+    padding-bottom: 100px;
+}
+.break{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.break button{
+    background-color: royalblue;
+    border-radius: 5px;
+    padding: 2px 15px;
+    border-style: none;
+}
+.About p{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'AudioWide', sans-serif;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.About h1{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 630px;
+    padding-left: 350px;
+    padding-bottom: 25px;
+    color: rgb(95, 95, 95);
+}
+.Knowme{
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    width: 550px;
+    padding-left: 70px;
+}
+.first h2{
+    font-size: 25px;
+    font-family: 'AudioWide', sans-serif;
+    font-weight: 100;
+    padding-bottom: 25px;
+}
+.first h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color:  rgb(95, 95, 95);
+    width: 550px;
+}
+.first h3 a{
+    color: royalblue;
+}
+.first button{
+    background-color: royalblue;
+    border-radius: 5px;
+    padding: 10px 45px;
+    border-style: none;
+}
+.first button a{
+    color: white;
+    text-decoration: none;
+    font-family: 'AudioWide', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+.second{
+    width: 550px;
+    padding-right: 70px;
+}
+.second h4{
+    font-size: 25px;
+    font-family: 'AudioWide', sans-serif;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.third{
+    display: flex;
+}
+.third button{
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-style: none;
+    margin: 8px;
+}
+.third button a{
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.project{
+    padding-top: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.project p{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'AudioWide', sans-serif;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.project h1{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 630px;
+    padding-left: 350px;
+    padding-bottom: 80px;
+    color: rgb(95, 95, 95);
+}
+.contact{
+    padding-top: 100px;
+    position: relative;
+}
+.contact p{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'AudioWide', sans-serif;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.contact h1{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 630px;
+    padding-left: 350px;
+    padding-bottom: 80px;
+    color: rgb(95, 95, 95);
+}
+.form{
+    background-color: grey;
+    border-radius: 40px;
+    width: 500px;
+    justify-content: center;
+}
+.footer{
+    background-color: black;
+}
+.footer h4{
+    color:white;
+    text-align:center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.footer h4 a{
+    color:white;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    padding-top:70px;
+    padding-bottom:80px;
+    width:1200px;
+    border-bottom:0.1px solid white;
+    margin-left:70px;
+}
+.child1 h1{
+    font-family: 'AudioWide', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.child1 h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.child2 h3{
+    font-family: 'AudioWide', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.child3{
+    border-style:;
+}
+.child3 ul{
+    display: flex;
+}
+.child3 ul li{
+    background-color: black;
+}
+.child3 ul li{
+    list-style-type: none;
+}
+.child3 ul li a{
+    color: black;
+}
+.child3 button{
+    background-color: black;
+    border-radius: 5px;
+    border-style: none;
+    margin:10px;
+}
