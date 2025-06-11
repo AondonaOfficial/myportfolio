@@ -322,7 +322,7 @@
     padding-bottom: 5px;
 }
 .child3{
-    border-style:;
+    border-style:none;
 }
 .child3 ul{
     display: flex;
